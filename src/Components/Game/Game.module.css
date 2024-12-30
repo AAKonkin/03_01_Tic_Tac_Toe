@@ -1,0 +1,20 @@
+.gameContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.customBtn {
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: lightgray;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+.customBtn:hover {
+	cursor: pointer;
+	background-color: darkgray;
+	color: white;
+}
